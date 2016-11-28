@@ -1,0 +1,33 @@
+{
+  "generator-jhipster": {
+    "jhipsterVersion": "3.11.0",
+    "baseName": "cookApp",
+    "packageName": "com.realine.cookapp",
+    "packageFolder": "com/realine/cookapp",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": false,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "jwtSecretKey": "3e5cc79e8ce4816cb405896a70e710427f1192ee",
+    "useSass": false,
+    "applicationType": "monolith",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  }
+}
